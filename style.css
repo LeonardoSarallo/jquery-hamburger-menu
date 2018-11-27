@@ -61,6 +61,17 @@
 }
 .hamburger_menu {
   display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #2B3F58;
+}
+.hamburger_menu ul {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+list-style: none;
+
 }
 @media screen and (max-width: 1000px)
 {
